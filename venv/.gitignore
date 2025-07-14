@@ -1,0 +1,31 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar arquivos do sistema e IDE
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+.idea/
+.vscode/
+
+# Ignorar arquivos de configuração do Python
+*.env
+*.venv
+
+# Ignorar banco de dados SQLite local
+db.sqlite3
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar pastas de migrações compiladas (__pycache__)
+**/migrations/__pycache__/
+
+# Ignorar arquivos de cache do pytest, se usar testes
+.cache/
+
+# Ignorar arquivos do pyenv
+.python-version

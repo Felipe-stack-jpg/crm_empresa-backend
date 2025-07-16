@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'C:\Users\FELIPE\Desktop\MEUS PROJETOS\crm_empresa\venv'
+set -gx VIRTUAL_ENV 'C:\Users\FELIPE\Desktop\Nova pasta\crm_empresa-backend\venv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"Scripts $PATH
